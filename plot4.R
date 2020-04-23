@@ -74,5 +74,6 @@ ggplot(coal_combustion_by_type, aes(x = year, y = Emissions.Sum)) +
 # remove variables no longer needed
 rm(coal_combustion, coal_combustion_by_type)
 
+
 ## close the PNG device
 dev.off()
