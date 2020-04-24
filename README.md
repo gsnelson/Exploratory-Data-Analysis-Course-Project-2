@@ -4,11 +4,10 @@ Fine particulate matter (PM2.5) is an ambient air pollutant for which there is s
 
 For each year and for each type of PM source, the NEI records how many tons of PM2.5 were emitted from that source over the course of the entire year. The data that you will use for this assignment are for 1999, 2002, 2005, and 2008.
 
-PM2.5 Emissions Data (\color{red}{\verb|summarySCC_PM25.rds|}summarySCC_PM25.rds): This file contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of PM2.5 emitted from a specific type of source for the entire year. Here are the first few rows.
+PM2.5 Emissions Data **(summarySCC_PM25.rds)**: This file contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of **tons** of PM2.5 emitted from a specific type of source for the entire year.
 
-
-\color{red}{\verb|fips|}fips: A five-digit number (represented as a string) indicating the U.S. county
-\color{red}{\verb|SCC|}SCC: The name of the source as indicated by a digit string (see source code classification table)
+- **fips**: A five-digit number (represented as a string) indicating the U.S. county
+- **SCC**: The name of the source as indicated by a digit string (see source code classification table)
 \color{red}{\verb|Pollutant|}Pollutant: A string indicating the pollutant
 \color{red}{\verb|Emissions|}Emissions: Amount of PM2.5 emitted, in tons
 \color{red}{\verb|type|}type: The type of source (point, non-point, on-road, or non-road)
